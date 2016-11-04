@@ -1,0 +1,36 @@
+{
+  "name": "itunes-server",
+  "version": "0.1.0",
+  "description": "iTunes server API mac osx control remote",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "body-parser": "^1.15.0",
+    "request-json": "^0.5.5",
+    "itunes-sdk": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrew-templeton/itunes-server.git"
+  },
+  "keywords": [
+    "iTunes",
+    "server",
+    "API",
+    "mac",
+    "osx",
+    "control",
+    "remote"
+  ],
+  "author": "Andrew Templeton <andrw.tmplton@gmail.com> (http://twitter.com/ayetempleton)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrew-templeton/itunes-server/issues"
+  },
+  "homepage": "https://github.com/andrew-templeton/itunes-server#readme"
+}
